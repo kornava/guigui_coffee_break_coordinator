@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/saif/MEGAsync/PRJTS/CBC/OUTPUT/guigui_coffee_break_coordinator/CBC/Android_Release/android-build/libs/QtAndroidBearer-bundled.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="112780e82d8a9b6ac2f0846312416c8d6adc8455">
+        <dex dex="/home/saif/MEGAsync/PRJTS/CBC/OUTPUT/guigui_coffee_break_coordinator/CBC/Android_Release/android-build/build/intermediates/pre-dexed/debug/QtAndroidBearer-bundled-4edf3f4e9d2b430ee6dc292113fb4af51d1c9451.jar" />
+    </item>
+    <item
+        jar="/home/saif/MEGAsync/PRJTS/CBC/OUTPUT/guigui_coffee_break_coordinator/CBC/Android_Release/android-build/libs/QtAndroid-bundled.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="96850e33c7c8c46d9ab1ac1f60d8e12e2c7bb110">
+        <dex dex="/home/saif/MEGAsync/PRJTS/CBC/OUTPUT/guigui_coffee_break_coordinator/CBC/Android_Release/android-build/build/intermediates/pre-dexed/debug/QtAndroid-bundled-c1ac2ac9b8a5480cd9b5613fa9e23bda32df5712.jar" />
+    </item>
+
+</items>
