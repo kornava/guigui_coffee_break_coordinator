@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9D3gACZ-EeetkdDBI1_4Cg" name="model">
+  <eAnnotations xmi:id="_9D3gASZ-EeetkdDBI1_4Cg" source="genmymodel">
+    <details xmi:id="_9D3gAiZ-EeetkdDBI1_4Cg" key="uuid" value="_OwtxsCZ-EeetkdDBI1_4Cg"/>
+    <details xmi:id="_9D3gAyZ-EeetkdDBI1_4Cg" key="author" value="kornava"/>
+  </eAnnotations>
+  <packageImport xmi:id="_9D3gBCZ-EeetkdDBI1_4Cg">
+    <eAnnotations xmi:id="_9D3gBSZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gBiZ-EeetkdDBI1_4Cg" key="uuid" value="_OwtxsSZ-EeetkdDBI1_4Cg"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Actor" xmi:id="_9D3gByZ-EeetkdDBI1_4Cg" name="User">
+    <eAnnotations xmi:id="_9D3gCCZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gCSZ-EeetkdDBI1_4Cg" key="uuid" value="_SIgWIAisEDWUGdS-l_eVMw"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_9D3gCiZ-EeetkdDBI1_4Cg" name="Join a break">
+    <eAnnotations xmi:id="_9D3gCyZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gDCZ-EeetkdDBI1_4Cg" key="uuid" value="_ZTCDIAisEDWuoPpJZbUj3Q"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:UseCase" xmi:id="_9D3gDSZ-EeetkdDBI1_4Cg" name="Create a break">
+    <eAnnotations xmi:id="_9D3gDiZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gDyZ-EeetkdDBI1_4Cg" key="uuid" value="_bNj2IAisEDWuoPpJZbUj3Q"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_9D3gECZ-EeetkdDBI1_4Cg" name="Actor_Join a break" memberEnd="_9D3gEyZ-EeetkdDBI1_4Cg _9D3gGCZ-EeetkdDBI1_4Cg" navigableOwnedEnd="_9D3gEyZ-EeetkdDBI1_4Cg _9D3gGCZ-EeetkdDBI1_4Cg">
+    <eAnnotations xmi:id="_9D3gESZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gEiZ-EeetkdDBI1_4Cg" key="uuid" value="_kfZN4AisEDWuoPpJZbUj3Q"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_9D3gEyZ-EeetkdDBI1_4Cg" name="join a break" type="_9D3gCiZ-EeetkdDBI1_4Cg" association="_9D3gECZ-EeetkdDBI1_4Cg">
+      <eAnnotations xmi:id="_9D3gFCZ-EeetkdDBI1_4Cg" source="genmymodel">
+        <details xmi:id="_9D3gFSZ-EeetkdDBI1_4Cg" key="uuid" value="_kfYm0AisEDWuoPpJZbUj3Q"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_9D3gFiZ-EeetkdDBI1_4Cg"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_9D3gFyZ-EeetkdDBI1_4Cg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9D3gGCZ-EeetkdDBI1_4Cg" name="actor" type="_9D3gByZ-EeetkdDBI1_4Cg" association="_9D3gECZ-EeetkdDBI1_4Cg">
+      <eAnnotations xmi:id="_9D3gGSZ-EeetkdDBI1_4Cg" source="genmymodel">
+        <details xmi:id="_9D3gGiZ-EeetkdDBI1_4Cg" key="uuid" value="_kfYm0QisEDWuoPpJZbUj3Q"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_9D3gGyZ-EeetkdDBI1_4Cg"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_9D3gHCZ-EeetkdDBI1_4Cg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_9D3gHSZ-EeetkdDBI1_4Cg" name="Actor_Create a break" memberEnd="_9D3gICZ-EeetkdDBI1_4Cg _9D3gJSZ-EeetkdDBI1_4Cg" navigableOwnedEnd="_9D3gICZ-EeetkdDBI1_4Cg _9D3gJSZ-EeetkdDBI1_4Cg">
+    <eAnnotations xmi:id="_9D3gHiZ-EeetkdDBI1_4Cg" source="genmymodel">
+      <details xmi:id="_9D3gHyZ-EeetkdDBI1_4Cg" key="uuid" value="_lUNWAQisEDWuoPpJZbUj3Q"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_9D3gICZ-EeetkdDBI1_4Cg" name="create a break" type="_9D3gDSZ-EeetkdDBI1_4Cg" association="_9D3gHSZ-EeetkdDBI1_4Cg">
+      <eAnnotations xmi:id="_9D3gISZ-EeetkdDBI1_4Cg" source="genmymodel">
+        <details xmi:id="_9D3gIiZ-EeetkdDBI1_4Cg" key="uuid" value="_lUMu8AisEDWuoPpJZbUj3Q"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_9D3gIyZ-EeetkdDBI1_4Cg"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_9D3gJCZ-EeetkdDBI1_4Cg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9D3gJSZ-EeetkdDBI1_4Cg" name="actor" type="_9D3gByZ-EeetkdDBI1_4Cg" association="_9D3gHSZ-EeetkdDBI1_4Cg">
+      <eAnnotations xmi:id="_9D3gJiZ-EeetkdDBI1_4Cg" source="genmymodel">
+        <details xmi:id="_9D3gJyZ-EeetkdDBI1_4Cg" key="uuid" value="_lUNWAAisEDWuoPpJZbUj3Q"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_9D3gKCZ-EeetkdDBI1_4Cg"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_9D3gKSZ-EeetkdDBI1_4Cg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

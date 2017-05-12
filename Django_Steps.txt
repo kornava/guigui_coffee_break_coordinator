@@ -1,0 +1,22 @@
+pip install djangorestframework
+==> this will install django rest package using the following command
+python manage.py startapp CBC_SERVER
+==> this will create the project
+python manage.py startapp cbc_app
+==> this will create the app
+-Go to the settings.py file and add the following lines in the INSTALLED_APPS object:
+'rest_framework',
+'cbc_app.apps.CbcAppConfig',
+==> This will tell django that we have an app and we will use REST framework
+- Go to the models.py and add the classes
+- go to admin.py and register the classes
+==> This will let the admin interface deal with your tables(which represent the classes)
+python manage.py makemigrations
+==> This will create the models 
+python manage.py migrate
+==> This will create the tables with their structures
+python manage.py createsuperuser
+==> Will ask for admin credentials
+python manage.py runserver
+-Go to your browser and access the following url
+

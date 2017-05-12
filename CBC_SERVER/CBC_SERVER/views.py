@@ -6,4 +6,4 @@ response_data['result'] = 'error'
 
 def test(resuest):
     print("test")
-    return JsonResponse({'Hello': 'CBC'})
+    return JsonResponse({'Hello': 'VICTOIRE! et Daouda!'})
