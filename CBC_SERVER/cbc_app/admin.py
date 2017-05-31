@@ -6,5 +6,3 @@ from .models import coffee_break, user
 
 admin.site.register(coffee_break)
 admin.site.register(user)
-
-
